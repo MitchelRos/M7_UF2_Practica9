@@ -10,7 +10,7 @@ ndarray = np.array([
 
 
 #Per defecte si no es posa una array
-def exerici1(arr=ndarray):
+def CreaArrayComoImagen(arr=ndarray):
     print(arr)
     # Retorna la dimesio de la array
     print("Dimensio Matriu", arr.ndim)
@@ -22,9 +22,4 @@ def exerici1(arr=ndarray):
     print("Tipus", arr.dtype)
     #Guarda fitxer binary
     print("Guardar fitxer Binari",np.save("exercici1.npy",arr))
-
-
-
-exerici1()
-
 
